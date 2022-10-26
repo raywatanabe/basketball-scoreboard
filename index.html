@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Scoreboard</title>
+</head>
+<body>
+    <div class="column">
+        <div class="container">
+            <div class="scorebox">
+                <h3>MONSTARS</h3>
+                <h2 class="score" id="monstars-score">0</h2>
+                <div class="buttons">
+                    <button class="add-one" onclick="monstarsPlusOne()">+1</button>
+                    <button class="add-two" onclick="monstarsPlusTwo()">+2</button>
+                    <button class="add-three" onclick="monstarsPlusThree()">+3</button>
+                </div>
+            </div>
+            <div class="scorebox">
+                <h3>TUNE SQUAD</h3>
+                <h2 class="score" id="tune-squad-score">0</h2>
+                <div class="buttons">
+                    <button class="add-one" onclick="tuneSquadPlusOne()">+1</button>
+                    <button class="add-two" onclick="tuneSquadPlusTwo()">+2</button>
+                    <button class="add-three" onclick="tuneSquadPlusThree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <button id="new-game" onclick="newGame()">New Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
